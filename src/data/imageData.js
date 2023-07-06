@@ -1,3 +1,4 @@
+// Liste d'images
 export const imageData = [
   {
     url: 'https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?w=800',

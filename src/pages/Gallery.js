@@ -1,20 +1,31 @@
 import React, { useState, useEffect } from 'react';
+// Liste des datas et des blocs
 import { imageData } from '../data/imageData';
 import listBlocks from '../utils/listBlocks';
+// Composants
 import { BlockBase } from '../components/BlockBase';
 
+/**
+ * Gallerie d'images
+ * @returns {JSX}
+ */
 const Gallery = () => {
+  // Liste des blocs
   const [blocks, setBlocks] = useState();
 
+  // Création du modèle à l'initialisation
   useEffect(() => {
-    getSchemaModel();
+    createModel();
   }, []);
 
-  const getSchemaModel = () => {
+  const createModel = () => {
+    // On récupère la liste d'images
     var data = [...imageData];
-    const modelBlock = [];
+    // On stocke le modèle créer au fur et à mesure
+    var modelBlock = [];
 
     while (data.length > 0) {
+      // Choix du nombre d'images affichés dans le bloc
       var randomBlockIndex = 1;
       if (data.length > 5) {
         var randomBlockIndex = Math.floor(Math.random() * 5) + 1;
@@ -26,12 +37,18 @@ const Gallery = () => {
 
       const block = listBlocks[randomBlockIndex];
       const blockLength = block?.length;
-      let random2 = Math.floor(Math.random() * blockLength) || 0;
-      let blockSelected = listBlocks[randomBlockIndex][random2];
+
+      // Choix du bloc
+      let randomNb = Math.floor(Math.random() * blockLength) || 0;
+      let blockSelected = listBlocks[randomBlockIndex][randomNb];
+
+      // Images qui seront dans le bloc
       const images = data?.splice(0, randomBlockIndex);
 
+      // Ajout du bloc sélectionné dans le modèle
       modelBlock.push({ blockSelected, images });
     }
+    // On set la liste des blocs avec le modèle créer
     setBlocks(modelBlock);
   };
 
