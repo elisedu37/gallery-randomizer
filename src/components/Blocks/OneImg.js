@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * Bloc pour 1 image
+ * @param {Array} img tableau avec les images à prendre
+ * @returns {JSX}
+ */
 const OneImg = ({ img }) => {
   return (
     <section className="flex gap-4">
