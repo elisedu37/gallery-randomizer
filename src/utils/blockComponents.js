@@ -1,5 +1,4 @@
 import { FiveBoxesV1 } from '../components/Blocks/fiveBoxes/FiveBoxesV1';
-import { FiveBoxesV2 } from '../components/Blocks/fiveBoxes/FiveBoxesV2';
 import { FourBoxesV1 } from '../components/Blocks/fourBoxes/FourBoxesV1';
 import { FourBoxesV2 } from '../components/Blocks/fourBoxes/FourBoxesV2';
 import { ThreeBoxesV1 } from '../components/Blocks/threeBoxes/ThreeBoxesV1';
@@ -11,7 +10,6 @@ import { OneBox } from '../components/Blocks/individualBox/OneBox';
 
 export const blockComponents = {
   FiveBoxesV1: FiveBoxesV1,
-  FiveBoxesV2: FiveBoxesV2,
   FourBoxesV1: FourBoxesV1,
   FourBoxesV2: FourBoxesV2,
   ThreeBoxesV1: ThreeBoxesV1,

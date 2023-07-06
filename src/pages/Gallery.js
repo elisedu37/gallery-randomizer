@@ -15,8 +15,6 @@ const Gallery = () => {
     const modelBlock = [];
 
     while (data.length > 0) {
-      console.log('jjjj');
-
       var randomBlockIndex = 1;
       if (data.length > 5) {
         var randomBlockIndex = Math.floor(Math.random() * 5) + 1;
