@@ -34,7 +34,7 @@ const Gallery = () => {
     }
     setBlocks(modelBlock);
   };
-  console.log(blocks);
+
   return (
     <div className="flex flex-col gap-4 max-w-screen-md m-auto bg-gray-200">
       {blocks ? (
