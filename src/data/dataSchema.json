@@ -1,28 +1,7 @@
 {
-  "1": [
-    "OneBigBox",
-    "OneBox",
-    "OneVerticalBox",
-    "OneHorizontalBox",
-    "OneLineBox"
-  ],
-  "2": ["TwoBoxesV1", "TwoBoxesV2", "TwoBoxesV3"],
-  "3": [
-    "ThreeBoxesV1",
-    "ThreeBoxesV2",
-    "ThreeBoxesV3",
-    "ThreeBoxesV4",
-    "ThreeBoxesV5"
-  ],
-  "4": ["FourBoxesV1", "FourBoxesV2", "FourBoxesV3"],
-  "5": ["FiveBoxesV1", "FiveBoxesV2", "FiveBoxesV3"],
-
-  "6": ["FiveBoxesV1", "FiveBoxesV2", "FiveBoxesV3"],
-  "0": [
-    "OneBigBox",
-    "OneBox",
-    "OneVerticalBox",
-    "OneHorizontalBox",
-    "OneLineBox"
-  ]
+  "1": ["OneBigBox", "OneBox"],
+  "2": ["TwoBoxesV1", "TwoBoxesV2"],
+  "3": ["ThreeBoxesV1", "ThreeBoxesV2"],
+  "4": ["FourBoxesV1", "FourBoxesV2"],
+  "5": ["FiveBoxesV1", "FiveBoxesV2"]
 }
