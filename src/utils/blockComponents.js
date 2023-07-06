@@ -1,12 +1,11 @@
-import { FiveBoxesV1 } from '../components/Blocks/fiveBoxes/FiveBoxesV1';
-import { FourBoxesV1 } from '../components/Blocks/fourBoxes/FourBoxesV1';
-import { FourBoxesV2 } from '../components/Blocks/fourBoxes/FourBoxesV2';
-import { ThreeBoxesV1 } from '../components/Blocks/threeBoxes/ThreeBoxesV1';
-import { ThreeBoxesV2 } from '../components/Blocks/threeBoxes/ThreeBoxesV2';
-import { TwoBoxesV1 } from '../components/Blocks/twoBoxes/TwoBoxesV1';
-import { TwoBoxesV2 } from '../components/Blocks/twoBoxes/TwoBoxesV2';
-import { OneBigBox } from '../components/Blocks/individualBox/OneBigBox';
-import { OneBox } from '../components/Blocks/individualBox/OneBox';
+import { FiveBoxesV1 } from '../components/Blocks/FiveBoxesV1';
+import { FourBoxesV1 } from '../components/Blocks/FourBoxesV1';
+import { FourBoxesV2 } from '../components/Blocks/FourBoxesV2';
+import { ThreeBoxesV1 } from '../components/Blocks/ThreeBoxesV1';
+import { ThreeBoxesV2 } from '../components/Blocks/ThreeBoxesV2';
+import { TwoBoxesV1 } from '../components/Blocks/TwoBoxesV1';
+import { TwoBoxesV2 } from '../components/Blocks/TwoBoxesV2';
+import { OneBox } from '../components/Blocks/OneBox';
 
 export const blockComponents = {
   FiveBoxesV1: FiveBoxesV1,
@@ -16,6 +15,5 @@ export const blockComponents = {
   ThreeBoxesV2: ThreeBoxesV2,
   TwoBoxesV1: TwoBoxesV1,
   TwoBoxesV2: TwoBoxesV2,
-  OneBigBox: OneBigBox,
   OneBox: OneBox,
 };

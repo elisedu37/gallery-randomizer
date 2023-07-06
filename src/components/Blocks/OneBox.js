@@ -1,12 +1,12 @@
 import React from 'react';
 
-const OneBigBox = ({ img }) => {
+const OneBox = ({ img }) => {
   return (
     <section className="flex gap-4">
-      <div className="w-full h-52 overflow-auto">
+      <div className="flex w-full h-56 overflow-hidden">
         <img
           src={img[0].url}
-          className="w-full h-full object-cover"
+          className="w-full object-cover"
           alt={img[0].alt}
         />
       </div>
@@ -14,4 +14,4 @@ const OneBigBox = ({ img }) => {
   );
 };
 
-export { OneBigBox };
+export { OneBox };

@@ -1,10 +1,10 @@
 import React from 'react';
 
-const TwoBoxesV1 = ({ img }) => {
+const ThreeBoxesV1 = ({ img }) => {
   return (
     <section className="flex gap-4">
       {img.map((image, index) => (
-        <div key={index} className="w-1/2 h-52 overflow-auto">
+        <div key={index} className="w-1/3 h-56 overflow-hidden">
           <img
             src={image.url}
             className="w-full h-full object-cover"
@@ -16,4 +16,4 @@ const TwoBoxesV1 = ({ img }) => {
   );
 };
 
-export { TwoBoxesV1 };
+export { ThreeBoxesV1 };
