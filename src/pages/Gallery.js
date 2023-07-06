@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { imageData } from '../data/imageData';
-import dataSchema from '../data/dataSchema';
+import listBlocks from '../utils/listBlocks';
 import { BlockBase } from '../components/BlockBase';
 
 const Gallery = () => {
@@ -24,10 +24,10 @@ const Gallery = () => {
         var randomBlockIndex = Math.floor(Math.random() * data.length + 1);
       }
 
-      const block = dataSchema[randomBlockIndex];
+      const block = listBlocks[randomBlockIndex];
       const blockLength = block?.length;
       let random2 = Math.floor(Math.random() * blockLength) || 0;
-      let blockSelected = dataSchema[randomBlockIndex][random2];
+      let blockSelected = listBlocks[randomBlockIndex][random2];
       const images = data?.splice(0, randomBlockIndex);
 
       modelBlock.push({ blockSelected, images });

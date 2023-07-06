@@ -12,7 +12,7 @@ export const imageData = [
     alt: 'Image 3 description',
   },
   {
-    url: 'https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?w=800', 
+    url: 'https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?w=800',
     alt: 'Image 1 description',
   },
   {

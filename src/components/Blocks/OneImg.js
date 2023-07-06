@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OneBox = ({ img }) => {
+const OneImg = ({ img }) => {
   return (
     <section className="flex gap-4">
       <div className="flex w-full h-56 overflow-hidden">
@@ -14,4 +14,4 @@ const OneBox = ({ img }) => {
   );
 };
 
-export { OneBox };
+export { OneImg };

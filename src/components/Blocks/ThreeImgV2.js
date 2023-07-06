@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ThreeBoxesV2 = ({ img }) => {
+const ThreeImgV2 = ({ img }) => {
   return (
     <section className="flex gap-4">
       <div className="w-2/4 h-56 overflow-hidden">
@@ -28,4 +28,4 @@ const ThreeBoxesV2 = ({ img }) => {
   );
 };
 
-export { ThreeBoxesV2 };
+export { ThreeImgV2 };

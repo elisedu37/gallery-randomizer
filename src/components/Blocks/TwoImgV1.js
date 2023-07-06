@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TwoBoxesV1 = ({ img }) => {
+const TwoImgV1 = ({ img }) => {
   return (
     <section className="flex gap-4">
       {img.map((image, index) => (
@@ -16,4 +16,4 @@ const TwoBoxesV1 = ({ img }) => {
   );
 };
 
-export { TwoBoxesV1 };
+export { TwoImgV1 };

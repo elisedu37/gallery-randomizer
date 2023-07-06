@@ -1,19 +1,19 @@
-import { FiveBoxesV1 } from '../components/Blocks/FiveBoxesV1';
-import { FourBoxesV1 } from '../components/Blocks/FourBoxesV1';
-import { FourBoxesV2 } from '../components/Blocks/FourBoxesV2';
-import { ThreeBoxesV1 } from '../components/Blocks/ThreeBoxesV1';
-import { ThreeBoxesV2 } from '../components/Blocks/ThreeBoxesV2';
-import { TwoBoxesV1 } from '../components/Blocks/TwoBoxesV1';
-import { TwoBoxesV2 } from '../components/Blocks/TwoBoxesV2';
-import { OneBox } from '../components/Blocks/OneBox';
+import { FiveImg } from '../components/Blocks/FiveImg';
+import { FourImgV1 } from '../components/Blocks/FourImgV1';
+import { FourImgV2 } from '../components/Blocks/FourImgV2';
+import { ThreeImgV1 } from '../components/Blocks/ThreeImgV1';
+import { ThreeImgV2 } from '../components/Blocks/ThreeImgV2';
+import { TwoImgV1 } from '../components/Blocks/TwoImgV1';
+import { TwoImgV2 } from '../components/Blocks/TwoImgV2';
+import { OneImg } from '../components/Blocks/OneImg';
 
 export const blockComponents = {
-  FiveBoxesV1: FiveBoxesV1,
-  FourBoxesV1: FourBoxesV1,
-  FourBoxesV2: FourBoxesV2,
-  ThreeBoxesV1: ThreeBoxesV1,
-  ThreeBoxesV2: ThreeBoxesV2,
-  TwoBoxesV1: TwoBoxesV1,
-  TwoBoxesV2: TwoBoxesV2,
-  OneBox: OneBox,
+  FiveImg: FiveImg,
+  FourImgV1: FourImgV1,
+  FourImgV2: FourImgV2,
+  ThreeImgV1: ThreeImgV1,
+  ThreeImgV2: ThreeImgV2,
+  TwoImgV1: TwoImgV1,
+  TwoImgV2: TwoImgV2,
+  OneImg: OneImg,
 };
