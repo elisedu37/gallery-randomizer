@@ -38,7 +38,7 @@ const Gallery = () => {
   };
   console.log(blocks);
   return (
-    <>
+    <div className="flex flex-col gap-4 max-w-screen-xl m-auto">
       {blocks ? (
         blocks?.map((block, index) => {
           return <BlockBase key={index} block={block} />;
@@ -46,7 +46,7 @@ const Gallery = () => {
       ) : (
         <>Recharger la page</>
       )}
-    </>
+    </div>
   );
 };
 

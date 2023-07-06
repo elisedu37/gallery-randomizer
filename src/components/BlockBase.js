@@ -1,5 +1,5 @@
 import React from 'react';
-import { blockComponents } from './blockComponents';
+import { blockComponents } from './../utils/blockComponents';
 
 export const BlockBase = ({ block }) => {
   const BlockComponent = blockComponents[block.blockSelected];
