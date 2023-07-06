@@ -1,3 +1,3 @@
-# gallery-randomizer
+![Design sans titre](https://github.com/elisedu37/gallery-randomizer/assets/46353414/c0ff5f6d-ce97-4e42-a0e1-7d083c9a41c2)
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/gallery-randomizer)
+# gallery-randomizer
