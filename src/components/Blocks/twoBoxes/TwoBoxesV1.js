@@ -1,13 +1,13 @@
 import React from 'react';
 
-const TwoBoxesV1 = () => {
+const TwoBoxesV1 = ({ img }) => {
   return (
-    <section>
-      <div className="w-3	h-3 overflow-auto">
-        <img src="https://images.pexels.com/photos/15109908/pexels-photo-15109908/free-photo-of-fleurs-insecte-papillon-fleurir.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" />
+    <section className="flex">
+      <div className="w-72 h-72 overflow-auto">
+        <img src={img[0].url} className="w-full h-full object-cover"/>
       </div>
-      <div className="w-3	h-3 overflow-auto">
-        <img src="https://images.pexels.com/photos/15109908/pexels-photo-15109908/free-photo-of-fleurs-insecte-papillon-fleurir.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" />
+      <div className="w-72 h-72 overflow-auto">
+        <img src={img[1].url} className="w-full h-full object-cover"/>
       </div>
     </section>
   );
